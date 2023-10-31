@@ -2279,10 +2279,10 @@ consolidated_map = {
     "subcategory": "Battle Item - Offense",
     "amount": 1
   },
-  "Splendid Camouflage Robe": {
-    "name": "Splendid Camouflage Robe",
+  "Splendid Disguise Robe": {
+    "name": "Splendid Disguise Robe",
     "rarity": 2,
-    "image": "splendid-camouflage-robe.webp",
+    "image": "splendid-disguise-robe.webp",
     "category": "Combat Supplies",
     "subcategory": "Battle Item - Utility",
     "amount": 1
@@ -2391,10 +2391,10 @@ consolidated_map = {
     "subcategory": "Battle Item - Utility",
     "amount": 1
   },
-  "Splendid Sprinter's Robe": {
-    "name": "Splendid Sprinter's Robe",
+  "Splendid Swift Robe": {
+    "name": "Splendid Swift Robe",
     "rarity": 2,
-    "image": "splendid-sprinter-s-robe.webp",
+    "image": "splendid-swift-robe.webp",
     "category": "Combat Supplies",
     "subcategory": "Battle Item - Buff",
     "amount": 1
@@ -2439,10 +2439,10 @@ consolidated_map = {
     "subcategory": "Battle Item - Buff",
     "amount": 1
   },
-  "Sprinter's Robe": {
-    "name": "Sprinter's Robe",
+  "Swiftness Robe": {
+    "name": "Swiftness Robe",
     "rarity": 2,
-    "image": "sprinter-s-robe.webp",
+    "image": "swiftness-robe.webp",
     "category": "Combat Supplies",
     "subcategory": "Battle Item - Buff",
     "amount": 1
@@ -2658,7 +2658,7 @@ consolidated_map = {
   "[Aeromancer] Windfury Engraving ...": {
     "name": "[Aeromancer] Windfury Engraving Recipie",
     "rarity": None,
-    "image": "engraving-4.webp",
+    "image": "a",
     "category": "Engraving Recipe",
     "subcategory": None,
     "amount": 1
@@ -3383,10 +3383,18 @@ consolidated_map = {
     "subcategory": None,
     "amount": 1
   },
-  "Oreha Fusion Material": {
-    "name": "Oreha Fusion Material",
+  "Basic Oreha Fusion Material": {
+    "name": "Basic Oreha Fusion Material",
     "rarity": 2,
-    "image": "oreha-fusion-material.webp",
+    "image": "basic-oreha-fusion-material.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Honing Materials",
+    "amount": 1
+  },
+  "Caldarr Fusion Material": {
+    "name": "Caldarr Fusion Material",
+    "rarity": 2,
+    "image": "caldarr-fusion-material.webp",
     "category": "Enhancement Material",
     "subcategory": "Honing Materials",
     "amount": 1
@@ -3519,10 +3527,42 @@ consolidated_map = {
     "subcategory": "Honing Materials",
     "amount": 1
   },
+  "Life Shard Pouch (L)": {
+    "name": "Life Shard Pouch (L)",
+    "rarity": 3,
+    "image": "life-shard-pouch-l.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Honing Materials",
+    "amount": 1
+  },
+  "Life Shard Pouch (M)": {
+    "name": "Life Shard Pouch (M)",
+    "rarity": 2,
+    "image": "life-shard-pouch-m.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Honing Materials",
+    "amount": 1
+  },
+  "Life Shard Pouch (S)": {
+    "name": "Life Shard Pouch (S)",
+    "rarity": 1,
+    "image": "life-shard-pouch-s.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Honing Materials",
+    "amount": 1
+  },
   "Metallurgy: Applied Welding": {
     "name": "Metallurgy: Applied Welding",
     "rarity": 4,
     "image": "metallurgy-applied-welding.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Additional Honing Materials",
+    "amount": 1
+  },
+  "Metallurgy: Basic Casting": {
+    "name": "Metallurgy: Basic Casting",
+    "rarity": 3,
+    "image": "metallurgy-basic-casting.webp",
     "category": "Enhancement Material",
     "subcategory": "Additional Honing Materials",
     "amount": 1
@@ -3557,6 +3597,14 @@ consolidated_map = {
     "image": "powder-of-sage.webp",
     "category": "Enhancement Material",
     "subcategory": "Other Materials",
+    "amount": 1
+  },
+  "Simple Oreha Fusion Material": {
+    "name": "Simple Oreha Fusion Material",
+    "rarity": 1,
+    "image": "simple-oreha-fusion-material.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Honing Materials",
     "amount": 1
   },
   "Solar Blessing": {
@@ -3595,6 +3643,14 @@ consolidated_map = {
     "name": "Tailoring: Applied Mending",
     "rarity": 4,
     "image": "tailoring-applied-mending.webp",
+    "category": "Enhancement Material",
+    "subcategory": "Additional Honing Materials",
+    "amount": 1
+  },
+  "Tailoring: Basic Design": {
+    "name": "Tailoring: Basic Design",
+    "rarity": 3,
+    "image": "tailoring-basic-design.webp",
     "category": "Enhancement Material",
     "subcategory": "Additional Honing Materials",
     "amount": 1
@@ -5303,6 +5359,30 @@ consolidated_map = {
     "subcategory": "Foraging Rewards",
     "amount": 10
   },
+  "Caldarr Relic": {
+    "name": "Caldarr Relic",
+    "rarity": 2,
+    "image": "caldarr-relic.webp",
+    "category": "Trader",
+    "subcategory": "Excavating Loot",
+    "amount": 10
+  },
+  "Caldarr Solar Carp": {
+    "name": "Caldarr Solar Carp",
+    "rarity": 2,
+    "image": "caldarr-solar-carp.webp",
+    "category": "Trader",
+    "subcategory": "Fishing Loot",
+    "amount": 10
+  },
+  "Caldarr Thick Raw Meat": {
+    "name": "Caldarr Thick Raw Meat",
+    "rarity": 2,
+    "image": "caldarr-thick-raw-meat.webp",
+    "category": "Trader",
+    "subcategory": "Hunting Loot",
+    "amount": 10
+  },
   "Crude Mushroom": {
     "name": "Crude Mushroom",
     "rarity": 0,
@@ -5311,10 +5391,10 @@ consolidated_map = {
     "subcategory": "Foraging Rewards",
     "amount": 100
   },
-  "Crystallized Excavating Bauble": {
-    "name": "Crystallized Excavating Bauble",
+  "Excavating Crystal": {
+    "name": "Excavating Crystal",
     "rarity": 3,
-    "image": "crystallized-excavating-bauble.webp",
+    "image": "excavating-crystal.webp",
     "category": "Trader",
     "subcategory": "Excavating Loot",
     "amount": 10
@@ -5343,10 +5423,10 @@ consolidated_map = {
     "subcategory": "Fishing Loot",
     "amount": 100
   },
-  "Crystallized Fishing Bauble": {
-    "name": "Crystallized Fishing Bauble",
+  "Fishing Crystal": {
+    "name": "Fishing Crystal",
     "rarity": 3,
-    "image": "crystallized-fishing-bauble.webp",
+    "image": "fishing-crystal.webp",
     "category": "Trader",
     "subcategory": "Fishing Loot",
     "amount": 10
@@ -5367,10 +5447,10 @@ consolidated_map = {
     "subcategory": "Mining Loot",
     "amount": 10
   },
-  "Crystallized Hunting Bauble": {
-    "name": "Crystallized Hunting Bauble",
+  "Hunting Crystal": {
+    "name": "Hunting Crystal",
     "rarity": 3,
-    "image": "crystallized-hunting-bauble.webp",
+    "image": "hunting-crystal.webp",
     "category": "Trader",
     "subcategory": "Hunting Loot",
     "amount": 10
